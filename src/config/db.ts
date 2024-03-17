@@ -20,7 +20,6 @@ export class DatabaseService {
             console.log("Database connected");
         } catch (error) {
             console.error('Database connection error:', error);
-            // Handle or throw the error as needed
         }
     }
     getClient(){
